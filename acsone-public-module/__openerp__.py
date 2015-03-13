@@ -48,9 +48,11 @@
     'data': [
         # 'security/ir.model.access.csv',
         'templates.xml',
+        'views/view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo.xml',
     ],
 }
+
