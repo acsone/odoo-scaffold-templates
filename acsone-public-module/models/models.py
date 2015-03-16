@@ -22,38 +22,10 @@
 #     If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-{
-    'name': "{{ name }}",
 
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+from openerp import models, fields, api
 
-    # 'description': put the module description in README.rst
+# class {{ name|snake }}(models.Model):
+#     _name = '{{ name|snake }}.{{ name|snake }}'
 
-    'author': "ACSONE SA/NV",
-    'website': "http://acsone.eu",
-
-    # Categories can be used to filter modules in modules listing
-    # Check http://goo.gl/0TfwzD for the full list
-    'category': 'Uncategorized',
-    'version': '0.1',
-    'license': 'AGPL-3',
-
-    # any module necessary for this one to work correctly
-    'depends': [
-        'base',
-    ],
-
-    # always loaded
-    'data': [
-        # 'security/ir.model.access.csv',
-        'templates.xml',
-        'views/view.xml',
-    ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo.xml',
-    ],
-}
-
+#     name = fields.Char()
