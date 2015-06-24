@@ -31,7 +31,8 @@
 
     # 'description': put the module description in README.rst
 
-    'author': "ACSONE SA/NV,Odoo Community Association (OCA)",
+    'author': 'ACSONE SA/NV,'
+              'Odoo Community Association (OCA)',
     'website': "http://acsone.eu",
 
     # Categories can be used to filter modules in modules listing
