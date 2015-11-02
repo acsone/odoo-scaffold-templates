@@ -31,7 +31,7 @@
 
     # 'description': put the module description in README.rst
 
-    'author': 'ACSONE SA/NV'
+    'author': 'ACSONE SA/NV',
     'website': "http://acsone.eu",
 
     # Categories can be used to filter modules in modules listing
